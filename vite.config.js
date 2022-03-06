@@ -7,7 +7,7 @@ export default defineConfig({
   assetsInclude: ['**/*.gltf'],
   root: "./",
   build:{
-    ourDir: "dist"
+    outDir: "dist"
   },
   publicDir: "assets"
   
