@@ -13,13 +13,13 @@ export default defineConfig({
   
 })
 
-// module.exports = {
-//   root: "./",
-//   build:{
-//     ourDir: "dist"
-//   },
-//   publicDir: "assets"
-// }
+module.exports = {
+  root: "./",
+  build:{
+    outDir: "dist"
+  },
+  publicDir: "assets"
+}
 
 
 
