@@ -5,7 +5,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // model file url
-// import fileModelUrl from "../src/assets/scene.gltf";
+import fileModelUrl from "../public/Double_Hot_Chocolate.glb";
 // import folder from "../src/assets/textures/starbuckscup2_baseColor.png"
 // import fileModelUrl2 from "../assets/scene.gltf";
 
@@ -49,8 +49,8 @@ const App = () => {
     const loader = new GLTFLoader();
 
     loader.load(
-      // fileModelUrl,
-      "../public/Double_Hot_Chocolate.glb",
+      fileModelUrl,
+      // "../public/Double_Hot_Chocolate.glb",
       (gltf) => {
         // gltf.scene.scale.set(0.1, 0.12, 0.1);
         gltf.scene.scale.set(2, 2, 2);
