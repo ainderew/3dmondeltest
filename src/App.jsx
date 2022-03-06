@@ -6,7 +6,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // model file url
 import fileModelUrl from "./assets/scene.gltf"
-import fileModelUrl2 from "../model_coffee/scene.gltf";
+import fileModelUrl2 from "../assets/scene.gltf";
 
 const App = () => {
   // console.log(fileModelUrl);
