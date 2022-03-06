@@ -11,5 +11,5 @@ module.exports = {
   build:{
     ourDir: "dist"
   },
-  publicDir: "model_starbucks"
+  publicDir: "assets"
 }
