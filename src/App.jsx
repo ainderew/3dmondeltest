@@ -6,7 +6,8 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // model file url
 import fileModelUrl from "../public/assets/scene.gltf";
-import fileModelUrl2 from "../assets/scene.gltf";
+// import folder from "../public/assets"
+// import fileModelUrl2 from "../assets/scene.gltf";
 
 const App = () => {
   // console.log(fileModelUrl);
@@ -46,8 +47,6 @@ const App = () => {
     scene.add(spotLight);
 
     let model;
-    // let url = fileModelUrl;
-    // console.log(url)
     const loader = new GLTFLoader();
 
     loader.load(
