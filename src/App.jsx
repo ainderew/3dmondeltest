@@ -6,12 +6,11 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // model file url
 import fileModelUrl from "../src/assets/scene.gltf";
-// import folder from "../public/assets"
+import folder from "../src/assets/textures/starbuckscup2_baseColor.png"
 // import fileModelUrl2 from "../assets/scene.gltf";
 
 const App = () => {
-  // console.log(fileModelUrl);
-  // console.log("test");
+  
   useEffect(() => {
     const scene = new THREE.Scene();
 
