@@ -50,7 +50,7 @@ const App = () => {
     const loader = new GLTFLoader();
 
     loader.load(
-      "/assets/scene.gltf",
+      "src/assets/scene.gltf",
       (gltf) => {
         // gltf.scene.scale.set(0.1, 0.12, 0.1);
         gltf.scene.scale.set(5, 5, 5);
