@@ -16,7 +16,7 @@ export default defineConfig({
 module.exports = {
   root: "./",
   build:{
-    outDir: ".dist"
+    outDir: "dist"
   },
   publicDir: "assets"
 }
