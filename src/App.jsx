@@ -4,7 +4,12 @@ import "./App.css";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
+// model file url
+// import fileModelUrl from "./model_starbucks/scene.gltf"
+
 const App = () => {
+  // console.log(fileModelUrl);
+  // console.log("test");
   useEffect(() => {
     const scene = new THREE.Scene();
 
@@ -40,7 +45,10 @@ const App = () => {
     scene.add(spotLight);
 
     let model;
+    // let url = fileModelUrl;
+    // console.log(url)
     const loader = new GLTFLoader();
+
     loader.load(
       "../model_starbucks/scene.gltf",
       (gltf) => {
