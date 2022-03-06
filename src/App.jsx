@@ -5,7 +5,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // model file url
-import fileModelUrl from "../public/assets/scene.gltf";
+import fileModelUrl from "../src/assets/scene.gltf";
 // import folder from "../public/assets"
 // import fileModelUrl2 from "../assets/scene.gltf";
 
