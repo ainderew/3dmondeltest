@@ -5,7 +5,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 // model file url
-import fileModelUrl from "./assets/scene.gltf"
+import fileModelUrl from "../public/assets/scene.gltf";
 import fileModelUrl2 from "../assets/scene.gltf";
 
 const App = () => {
@@ -51,7 +51,7 @@ const App = () => {
     const loader = new GLTFLoader();
 
     loader.load(
-      fileModelUrl2,
+      fileModelUrl,
       (gltf) => {
         // gltf.scene.scale.set(0.1, 0.12, 0.1);
         gltf.scene.scale.set(5, 5, 5);
